@@ -1,0 +1,17 @@
+.header__inner {
+  padding: 14px 0 14px 0;
+  display: flex;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 85px;
+}
+
+.header__nav-link {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
