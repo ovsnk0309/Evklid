@@ -1,0 +1,110 @@
+.questions {
+  padding-bottom: 100px;
+  padding-top: 119px;
+}
+
+.questions__title {
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--color-black);
+  margin-bottom: 36px;
+}
+
+.questions__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  width: 100%;
+  border-bottom: 1px solid #cacaca;
+}
+
+.questions__headline {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--color-black);
+}
+
+.questions__line:first-child {
+  border-top: 1px solid #cacaca;
+}
+
+.questions__icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #cacaca;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.questions__icon::before,
+.questions__icon::after {
+  content: "";
+  position: absolute;
+  background-color: var(--color-black);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.questions__icon::before {
+  width: 31px;
+  height: 1px;
+}
+
+.questions__icon::after {
+  width: 1px;
+  height: 31px;
+}
+
+.questions__button:focus-visible h3,
+.questions__button:hover h3 {
+  color: var(--color-orange);
+}
+
+.questions__button:focus-visible .questions__icon,
+.questions__button:hover .questions__icon {
+  background-color: var(--color-orange);
+}
+
+.questions__line:focus-visible,
+.questions__line:hover {
+  border-color: var(--color-orange);
+}
+
+.questions__button:focus-visible .questions__icon::before,
+.questions__button:focus-visible .questions__icon::after,
+.questions__button:hover .questions__icon::before,
+.questions__button:hover .questions__icon::after {
+  background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1024px) {
+  .questions__list {
+  }
+  .questions__item {
+  }
+  .questions__button {
+    padding: 39px 0;
+  }
+
+  .questions__item:nth-child(even)  .questions__button{
+    padding: 30px 0;
+  }
+  .questions__line {
+  }
+  .btn-reset {
+  }
+  .questions__headline {
+    font-size: 20px;
+    line-height: 160%;
+  }
+  .questions__icon {
+  }
+  .questions__list-item {
+  }
+
+}

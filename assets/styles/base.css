@@ -2,8 +2,41 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .container {
-  max-width: 1770px;
+  max-width: 1920px;
   padding: 0 75px;
   margin: 0 auto;
+}
+
+button {
+  font-family: inherit;
+  border-radius: var(--border-radius-button);
+}
+
+.btn-reset {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  padding: 0;
+}
+
+.button-common:focus-visible,
+.button-common:hover {
+  background-color: var(--color-light-orange);
+  outline: none;
+}
+
+.button-common:active {
+  background-color: var(--color-dark-orange);
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 50px;
+  }
 }

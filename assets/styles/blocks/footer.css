@@ -1,0 +1,155 @@
+.footer {
+  background-color: var(--color-black);
+  padding: 50px 0;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+}
+
+.footer__left {
+  flex-basis: 20.8%;
+}
+
+.footer__logo-img {
+  margin-bottom: 20px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.footer__nav-link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 200%;
+  color: #cacaca;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer__center {
+  margin: 0 auto;
+  flex: 0 1 570px;
+}
+
+.footer__heading {
+  font-weight: 400;
+  font-size: 48px;
+  color: #cacaca;
+  margin-bottom: 25px;
+}
+
+.footer__join-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+}
+
+.footer__form-input {
+  border: 1px solid #414141;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #cacaca;
+  border-radius: 16px;
+  height: 60px;
+  padding: 0 14px;
+  background-color: #414141;
+  width: 100%;
+}
+
+.footer__form-input::placeholder,
+.footer__form-message::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #cacaca;
+
+  font-family: inherit;
+}
+
+.footer__form-message {
+  width: 100%;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #cacaca;
+  background-color: #414141;
+  border: 1px solid #414141;
+  height: 150px;
+  padding: 14px 24px;
+  resize: none;
+}
+
+.footer__form-button {
+  border-radius: var(--border-btn);
+  padding: 19px 51px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(-color-white);
+  background-color: var(--color-orange);
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #cacaca;
+  max-width: 362px;
+}
+
+.footer__nav-link:active {
+  color: var(--color-dark-orange);
+}
+
+.footer__form-input:focus-visible,
+.footer__form-input:hover,
+.footer__form-input:active,
+.footer__form-message:focus-visible,
+.footer__form-message:hover,
+.footer__form-message:active,
+.footer__form-message:focus-visible,
+.footer__form-message:hover,
+.footer__form-message:active {
+  background-color: #666;
+  outline: none;
+}
+
+.footer__icons-link path {
+  transition: all 0.3s;
+}
+
+.footer__icons-link:hover path {
+  fill: var(--color-orange);
+}
+
+.footer__icons-link:focus-visible {
+  outline: 2px solid var(--color-orange);
+}
+
+.footer__icons-link:active path {
+  fill: var(--color-dark-orange);
+}
+
+.footer__nav-link:focus-visible {
+  outline: 2px solid var(--color-orange);
+  color: #cacaca;
+}
+
+.footer__nav-link:hover {
+  color: var(--color-orange);
+}
+
+.footer__nav-link:active {
+  color: var(--color-dark-orange);
+}
