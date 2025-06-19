@@ -83,17 +83,15 @@
 }
 
 @media (max-width: 1024px) {
+  .questions {
+    padding-top: 88px;
+  }
+
   .questions__list {
   }
   .questions__item {
   }
-  .questions__button {
-    padding: 39px 0;
-  }
 
-  .questions__item:nth-child(even)  .questions__button{
-    padding: 30px 0;
-  }
   .questions__line {
   }
   .btn-reset {
@@ -101,10 +99,11 @@
   .questions__headline {
     font-size: 20px;
     line-height: 160%;
+    text-align: left;
+    max-width: 756px;
   }
   .questions__icon {
   }
   .questions__list-item {
   }
-
 }

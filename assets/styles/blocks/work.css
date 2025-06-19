@@ -112,10 +112,18 @@
     padding-top: 43px;
   }
   .work__steps {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
   }
+
+  .work__top {
+    margin-bottom: 24px;
+  }
+
   .work__title {
     margin-bottom: 7px;
   }
 
+  .work__text {
+    max-width: 437px;
+  }
 }

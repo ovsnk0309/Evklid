@@ -153,3 +153,19 @@
 .footer__nav-link:active {
   color: var(--color-dark-orange);
 }
+
+@media (max-width: 1024px) {
+  .footer__right {
+    display: none;
+  }
+
+  .footer__content {
+    justify-content: space-between;
+  }
+
+  .footer__center {
+    margin: 0;
+    flex: 0 1 541px;
+  }
+
+}
