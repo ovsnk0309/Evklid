@@ -121,14 +121,6 @@
   top: 10px;
 }
 
-/* .logo {
-  transition: 0.5s;
-}
-
-.logo:hover {
-  transform-origin: top right;
-  transform: rotate(45deg) scale(0.5);
-} */
 
 @media (max-width: 1200px) {
   .logo__img {
