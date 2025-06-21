@@ -29,7 +29,7 @@
 }
 
 .about__left {
-  background-image: url("../../assets/img/about/about-bg.jpg");
+  background-image: url("../../img/about/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 32px;
@@ -97,7 +97,7 @@
 }
 
 .about__upgrade {
-  background-image: url("../../assets/img/about/about-upgrade.svg");
+  background-image: url("../../img/about/about-upgrade.svg");
 }
 
 .about__button {
