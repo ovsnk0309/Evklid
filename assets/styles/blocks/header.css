@@ -121,7 +121,6 @@
   top: 10px;
 }
 
-
 @media (max-width: 1200px) {
   .logo__img {
     width: 150px;
@@ -136,11 +135,11 @@
     display: block;
     z-index: 10;
   }
-  
+
   .header__nav {
     order: -1;
   }
-  
+
   .header__inner {
     padding: 26px 0;
   }
@@ -164,9 +163,15 @@
     transition: opacity 0.5s, visibility 0.5s, transform 0.5s;
   }
 
-.header__nav-list.active {
+  .header__nav-list.active {
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .header__inner {
+    padding: 11px 0;
   }
 }

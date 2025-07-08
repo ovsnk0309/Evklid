@@ -6,6 +6,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
 .container {
   max-width: 1920px;
   padding: 0 75px;
