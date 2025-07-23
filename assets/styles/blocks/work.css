@@ -134,7 +134,6 @@
 }
 
 @media (max-width: 768px) {
-
   .work {
     padding-bottom: 25px;
   }
@@ -168,5 +167,59 @@
 
   .work__right {
     margin-bottom: 9px;
+  }
+}
+
+@media (max-width: 576px) {
+  .work {
+    padding-bottom: 31px;
+  }
+  .work__headline {
+    font-size: 24px;
+    margin-bottom: 22px;
+  }
+  .work__step-button {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .work__steps {
+    gap: 0;
+    margin-bottom: 15px;
+  }
+  .work__content {
+    gap: 8px;
+  }
+  .work__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 178%;
+    margin-bottom: 9px;
+  }
+  .work__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+  }
+  .work__top {
+    margin-bottom: 24px;
+  }
+  .work__buttons {
+    gap: 10px;
+  }
+  .button-common {
+    border-radius: 8px;
+    padding: 12px 44px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+  }
+  .work__button--contract {
+    padding: 11px 32px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
   }
 }

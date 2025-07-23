@@ -202,3 +202,56 @@
     align-items: flex-start;
   }
 }
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 35px 0;
+  }
+
+  .footer__logo {
+    width: 131px;
+    display: block;
+  }
+
+  .footer__logo-img {
+    margin-bottom: 17px;
+  }
+
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer__heading {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 22px;
+  }
+
+  .footer__join-form {
+    gap: 24px;
+  }
+
+  .footer__center {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .footer__form-button {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 12px 28px;
+    border-radius: 8px;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__icons {
+    gap: 16px;
+  }
+}

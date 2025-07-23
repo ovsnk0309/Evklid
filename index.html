@@ -119,6 +119,25 @@
 
           <div class="about__content">
             <div class="about__left">
+              <picture class="about__left-picture">
+                <source
+                  media="(max-width: 576px)"
+                  srcset="assets/img/about/about-bg-320.jpg"
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="assets/img/about/about-bg-768.jpg"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="assets/img/about/about-bg-1024.jpg"
+                />
+                <img
+                  class="about__left-img"
+                  src="assets/img/about/about-bg.jpg"
+                  alt="builder"
+                />
+              </picture>
               <div class="about__left-inner">
                 <p class="about__left-text">
                   Принимая во внимание показатели успешности, перспективное
@@ -178,10 +197,10 @@
                 <h4 class="work__title">Проводим консультацию</h4>
                 <p class="work__text">
                   Влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации
-                  приоритизации разума над&nbsp;эмоциями. В&nbsp;рамках спецификации
-                  современных стандартов, некоторые особенности внутренней
-                  политики будут объективно рассмотрены соответствующими
-                  инстанциями. <br class="work__br">
+                  приоритизации разума над&nbsp;эмоциями. В&nbsp;рамках
+                  спецификации современных стандартов, некоторые особенности
+                  внутренней политики будут объективно рассмотрены
+                  соответствующими инстанциями. <br class="work__br" />
                   А&nbsp;также представители современных социальных резервов,
                   инициированные исключительно синтетически, ограничены
                   исключительно образом мышления. Являясь всего лишь частью
@@ -316,7 +335,7 @@
                 </li>
               </ul>
             </nav>
-            
+
             <ul class="footer__icons">
               <li class="footer__icons-item">
                 <a href="" class="footer__icons-link">
@@ -356,22 +375,19 @@
                   </svg>
                 </a>
               </li>
-              <li class="footer__icons-item">
-                <a href="" class="footer__icons-link"></a>
-              </li>
             </ul>
           </div>
           <div class="footer__center">
             <h2 class="footer__heading">Оставить заявку</h2>
             <form class="footer__join-form">
               <input
-                class="footer__form-input"
+                class="footer__form-input input-name"
                 type="text"
                 autocomplete="name"
                 placeholder="Фамилия, имя и отчество*"
               />
               <input
-                class="footer__form-input"
+                class="footer__form-input input-email"
                 name="email"
                 id="email"
                 type="email"
@@ -379,7 +395,7 @@
               />
 
               <textarea
-                class="footer__form-message"
+                class="footer__form-message input-message"
                 placeholder="Сообщение"
               ></textarea>
 
@@ -421,5 +437,6 @@
         nav.classList.toggle("active");
       });
     </script>
+    <script src="assets/js/form.js"></script>
   </body>
 </html>
